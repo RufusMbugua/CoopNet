@@ -69,7 +69,7 @@ input.radio {
 	width: 10px;
 }
 .menu-container {
-	width: 15%;
+	width: 100%;
 	height: auto;
     float:left;
 }
@@ -80,14 +80,11 @@ input.radio {
 }
 .menu {
 	background: #FFF;
-	width: 100%;
+	width: 82%;
 	margin-bottom: 10px;
-	-webkit-box-shadow: inset 0px 0px 6px 0px #000;
-	-moz-box-shadow: inset 0px 0px 6px 0px #000;
-	box-shadow: inset 0px 0px 6px 0px #000;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	
+border-bottom:1px solid black;
+	
 	padding: 5px 20px 20px 20px;
 	padding-bottom: 20px;
 	height: 25px;

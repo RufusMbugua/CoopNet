@@ -27,7 +27,6 @@ header {
 	margin: auto;
 	width: 80%;
 	height: 500px;
-	border: 1px solid black;
 	margin-top: 30px;
 }
 
@@ -61,6 +60,10 @@ input[type=search] {
 .notifications, .one, .two{
 	display:inline-block;
 }
+.notifications h3, .one h3, .two h3{
+	clear:all;
+	border-bottom:1px solid black;
+}
 .notifications{
 	width:40%;
 	float:left;
@@ -79,8 +82,15 @@ input[type=search] {
 	
 	width:100%;
 	border:1px solid black;
-	height:45%;
+	height:50%;
 	margin-bottom:20px;
+}
+.left-sidebar{
+	height:97%;
+	width:15%;
+	border:1px solid black;
+	display:inline-block;
+	position:absolute;
 }
 
 /*

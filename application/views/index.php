@@ -35,19 +35,22 @@
 
 		</header>
 		<section class="content">
-			<section class="menu-container">
+			<section class="left-sidebar">
+				<section class="menu-container">
 				<section class="menu"></section>
 			</section>
+			</section>
+			
 			<section class="tiles">
 				<section class="one">
-				<h2>Some Title</h2>
+				<h3>Some Title</h3>
 			</section>
 			<section class="notifications">
-				<h2>Notifications</h2>
+				<h3>Notifications</h3>
 			</section>
 			
 			<section class="two">
-				<h2>Some Title</h2>
+				<h3>Some Title</h3>
 			</section>
 			</section>
 			
