@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<?php
-		$this -> load -> view('section/head');
+		$this -> load -> view('sections/head');
 		?>
 	</head>
 	<body>
@@ -12,37 +12,36 @@
 				</section>
 			</section>
 			<section class="header-bottom">
-				<nav>
-					<ul>
-						<li>
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="#">Reports</a>
-						</li>
-					</ul>
+				<div class="navbar">
+					<div class="navbar-inner">
+						<a class="brand" href="#">CoopNet</a>
+						<ul class="nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">Link</a>
+							</li>
+							<li>
+								<a href="#">Link</a>
+							</li>
+						</ul>
+						<div class="pull-right">
+							Hi,User <a href="#">Logout</a>
+						</div>
 
-				</nav>
+					</div>
 
-				<section class="search">
-					<form>
-						<input type="search" placeholder="Search Here"/>
-
-					</form>
-				</section>
-				<div class="user">
-					Hi,User <a href="#">Logout</a>
-				</div>
 			</section>
 
 		</header>
-<?php
+		<?php
 
-$this->load->view($contentView);
-?>
-	
-<footer>
-	2012 Peace Kawomera
-</footer>
-</body>
+		$this -> load -> view($contentView);
+		?>
+
+		<footer class="well">
+			2012 Peace Kawomera
+		</footer>
+	</body>
 </html>
