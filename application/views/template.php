@@ -68,9 +68,6 @@
 									</ul>
 									
 								</li>
-								<li>
-									<a href="">Contracting</a>
-								</li>
 							
 							<li>
 								<a href="">Actions</a>
@@ -104,7 +101,7 @@
 			$this -> load -> view($contentView);
 			?>
 		</section>
-		<footer class="well">
+		<footer>
 			2012 Peace Kawomera
 		</footer>
 	</body>
