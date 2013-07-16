@@ -4,18 +4,20 @@
 		
 
 		<section class="two">
-			<h3>Agronomist Registration</h3>
+			<h3>Sub County Registration</h3>
 			<div class="well">
 				<form action="<?php echo base_url().'c_front/agr_register'?>" method="post">
 				<table>
 					<tr>
-						<td><label>Date of Assigned : </label></td>
-						<td><input type="date" name="dater" /></td>
+						<td><label>Sub County Name : </label></td>
+						<td><input type="text" name="sbname" /></td>
 						
 					</tr>
+					
+					
 					<tr>
 						<td></td>
-						<td><input type="submit" class="btn btn-primary" value="Register Agronomist" /></td>
+						<td><input type="submit" value="Register Subcounty" /></td>
 					</tr>
 				</table>
 				</form>

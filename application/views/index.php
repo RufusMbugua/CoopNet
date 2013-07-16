@@ -2,7 +2,7 @@
 
 	<section class="tiles">
 		<section class="one">
-			<h3>Some Title</h3>
+			<h3>Actions</h3>
 			<div class="well">
 				
 			</div>
@@ -15,7 +15,7 @@
 		</section>
 
 		<section class="two">
-			<h3>Some Title</h3>
+			<h3>Reports</h3>
 			<div class="well">
 				
 			</div>
