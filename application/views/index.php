@@ -1,62 +1,23 @@
-<section class="content">
-	<section class="left-sidebar well">
-		<section class="menu-container">
-			<section class="menu">
-				<ul class="nav nav-list">
-					<li>
-						<a href="">Farmers</a>
-					</li>
-					<ul class="nav nav-list">
-						<li>
-							<a href="">Registration</a>
-						</li>
-						<li>
-							<a href="">Contracting</a>
-						</li>
-					</ul>
-					<li>
-						<a href="">Crops</a>
-					</li>
-					<ul class="nav nav-list">
-						<li>
-							<a href="">Coffee</a>
-						</li>
-						<ul class="nav nav-list">
-							<li>
-								<a href="">Buying</a>
-							</li>
-						</ul>
-					</ul>
-					<li>
-						<a href="">Departments</a>
-					</li>
-					
+<section class="tiles">
+	<section class="one">
+		<h3>Actions</h3>
+		<div class="well">
+			<a href="#"><i class="icon-user">User Management</i></a>
+		</div>
+	</section>
+	<section class="notifications">
+		<h3>Notifications</h3>
+		<div class="well">
 
-				</ul>
-			</section>
-		</section>
+		</div>
 	</section>
 
-	<section class="tiles">
-		<section class="one">
-			<h3>Some Title</h3>
-			<div class="well">
-				
-			</div>
-		</section>
-		<section class="notifications">
-			<h3>Notifications</h3>
-			<div class="well">
-				
-			</div>
-		</section>
+	<section class="two">
 
-		<section class="two">
-			<h3>Some Title</h3>
-			<div class="well">
-				
-			</div>
-		</section>
+		<h3>Reports</h3>
+		<div class="well">
+
+		</div>
 	</section>
-
 </section>
+
