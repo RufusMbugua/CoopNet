@@ -6,8 +6,8 @@
 		<section class="two">
 			<h3>Report Violation</h3>
 			<div class="well">
-				<form action="<?php echo base_url().'c_front/agr_register'?>" method="post">
-				<table>
+				<form action="<?php echo base_url().'c_front/reg_violation'?>" method="post">
+				<table class="table table-striped">
 					<tr>
 						<td><label>Farmer : </label></td>
 						<td><input type="text" name="farmer" /></td>
@@ -15,7 +15,14 @@
 					</tr>
 					<tr>
 						<td><label>Certification Officer : </label></td>
-						<td><input type="date" name="cofficer" /></td>
+						<td><select name="cofficer">
+							<option selected="selected"> -- Select Certification Officer -- </option>
+							<?php
+								foreach ($cofficer as $cofficer) {
+							?>
+							<option value="<?php echo $cofficer['officerid'];?>"><?php echo $cofficer['officerfirstname'].' '.$cofficer['officerlastname']; ?></option>
+							<?php } ?>
+						</select></td>
 						
 					</tr>
 					<tr>
@@ -25,7 +32,7 @@
 					</tr>
 					<tr>
 						<td><label>Violation Explaination : </label></td>
-						<td><textarea></textarea></td>
+						<td><textarea name="explain"> </textarea></td>
 						
 					</tr>
 					<tr>
@@ -45,7 +52,14 @@
 					</tr>
 					<tr>
 						<td><label>Field Suppervisor : </label></td>
-						<td><input type="text" name="fos" /></td>
+						<td><select name="fos">
+							<option selected="selected"> -- Select Supervisor -- </option>
+							<?php
+								foreach ($sup as $sup) {
+							?>
+							<option value="<?php echo $sup['officerid'];?>"><?php echo $sup['officerfirstname'].' '.$sup['officerlastname']; ?></option>
+							<?php } ?>
+						</select></td>
 						
 					</tr>
 					<tr>
@@ -55,13 +69,13 @@
 					</tr>
 					<tr>
 						<td><label>Comments : </label></td>
-						<td><textarea></textarea></td>
+						<td><textarea name="comments"></textarea></td>
 						
 					</tr>
 					
 					<tr>
 						<td></td>
-						<td><input type="submit" value="Violation Report" /></td>
+						<td><input type="submit" class="btn btn-primary" value="Violation Report" /></td>
 					</tr>
 				</table>
 				</form>

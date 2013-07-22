@@ -9,15 +9,19 @@ class Mirembe_Agronomists extends MY_Model {
 	}
 
 
-	function setIncident() {
+	function setAgronomist() {
 
-		$this -> theForm = new \models\Entities\E_Mirembe_Agronomist();
-		$this -> theForm -> setLastAssignmentDate($_POST['dater']);
+		$this -> theForm = new \models\Entities\MirembeAgronomists();
+		
+		//var_dump($this->input->post());die;
+		$this -> theForm -> setAgronomistsid($_POST['agronomist']);
+		$this -> theForm -> setLastassignmentdate($_POST['dater']);
 		$this -> em -> persist($this -> theForm);
 		$this -> em -> flush();
 		$this -> em -> clear();
 		redirect("c_front");
 	}
+	
 
 	
 

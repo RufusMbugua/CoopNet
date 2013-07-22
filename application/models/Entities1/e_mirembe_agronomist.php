@@ -10,7 +10,7 @@ class E_Mirembe_Agronomist {
 	/**
 	 * @Id
 	 * @Column(name="agronomistsID", type="integer", length=11, nullable=false)
-	 * @GeneratedValue(strategy="AUTO")
+	 * 
 	 * */
 	private $agronomistsID;
 

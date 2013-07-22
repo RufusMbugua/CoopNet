@@ -6,8 +6,8 @@
 		<section class="two">
 			<h3>Transport Declaration</h3>
 			<div class="well">
-				<form action="<?php echo base_url().'c_front/agr_register'?>" method="post">
-				<table>
+				<form action="<?php echo base_url().'c_front/reg_Transport'?>" method="post">
+				<table class="table table-striped">
 					<tr>
 						<td><label>Date : </label></td>
 						<td><input type="text" name="dater" /></td>
@@ -40,7 +40,14 @@
 					</tr>
 					<tr>
 						<td><label>Supervisor : </label></td>
-						<td><input type="date" name="supervisor" /></td>
+						<td><select name="supervisor">
+							<option selected="selected"> -- Select Supervisor -- </option>
+							<?php
+								foreach ($sup as $sup) {
+							?>
+							<option value="<?php echo $sup['officerid'];?>"><?php echo $sup['officerfirstname'].' '.$sup['officerlastname']; ?></option>
+							<?php } ?>
+						</select></td>
 						
 					</tr>
 					<tr>
@@ -50,7 +57,7 @@
 					</tr>
 					<tr>
 						<td></td>
-						<td><input type="submit" value="Register Agronomist" /></td>
+						<td><input type="submit" class="btn btn-primary" value="Register Agronomist" /></td>
 					</tr>
 				</table>
 				</form>

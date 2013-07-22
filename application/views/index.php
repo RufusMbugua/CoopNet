@@ -4,7 +4,7 @@
 		<section class="one">
 			<h3>Actions</h3>
 			<div class="well">
-				
+				<a href="#"><i class="icon-user">User Management</i></a>
 			</div>
 		</section>
 		<section class="notifications">

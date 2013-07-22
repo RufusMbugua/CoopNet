@@ -54,7 +54,7 @@
 										<a href="<?php echo base_url(); ?>c_front/transfer">Farmer Transfer</a>
 									</li>
 									<li>
-										<a href="<?php echo base_url(); ?>c_front/ftype">Farmer Type</a>
+										<a href="<?php echo base_url(); ?>c_front/ftype">Farming Type</a>
 									</li>
 								</ul>
 							</li>
