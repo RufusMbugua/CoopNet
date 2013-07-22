@@ -20,7 +20,13 @@
 					</tr>
 					<tr>
 						<td><label>Designation : </label></td>
-						<td><input type="text" name="designation" /></td>
+						<td><select name="designation">
+							<option selected="selected"> -- Select Designation -- </option>
+							<option value="Supervisor">Supervisor</option>
+							<option value="Certification Officer">Certification Officer</option>
+							<option value="Agronomist">Agronomist</option>
+							<option value="Failitator">Facilitator</option>
+						</select></td>
 						
 					</tr>
 					
